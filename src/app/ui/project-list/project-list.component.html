@@ -1,0 +1,4 @@
+<h1>Project list</h1>
+<ul *ngIf="data$ | async as data">
+  <li *ngFor="let employee of data">{{ employee.id}}: {{ employee.name }}: {{employee.owner }}</li>
+</ul>
