@@ -3,9 +3,7 @@ import { ProjectListComponent } from './project-list.component';
 import {CommonModule} from "@angular/common";
 
 @NgModule({
-    imports: [
-        CommonModule
-    ],
+  imports: [CommonModule],
   declarations: [ProjectListComponent],
   providers: [],
   exports: [ProjectListComponent]
